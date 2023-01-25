@@ -5,11 +5,9 @@
 var isPalindrome = function(x) {
   x += '';
   xReverse = x.split('').reverse().join('');
-  if (x === xReverse) {
-      return true;
-  } else {
-      return false;
-  }
+  return x === xReverse
+    ? true
+    : false
 };
 
 //accepted
