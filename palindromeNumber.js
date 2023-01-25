@@ -11,3 +11,5 @@ var isPalindrome = function(x) {
       return false;
   }
 };
+
+//accepted

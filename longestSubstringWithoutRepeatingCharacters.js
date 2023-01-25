@@ -9,7 +9,6 @@ var lengthOfLongestSubstring = function(s) {
   for (let i = 0; i < s.length; i += 1) {
     if (subString.indexOf(s[i]) === -1) {
       subString += s[i]
-      console.log('substring', subString,'longest substring', longestSubstring, 'input', s)
     } else {
       subString = ''
     }
@@ -22,4 +21,4 @@ var lengthOfLongestSubstring = function(s) {
 
 console.log(lengthOfLongestSubstring('abcabcbb'))
 console.log(lengthOfLongestSubstring('bbbbb'))
-// console.log(lengthOfLongestSubstring('pwwkew'))
+console.log(lengthOfLongestSubstring('pwwkew'))
